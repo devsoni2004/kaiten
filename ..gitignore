@@ -1,0 +1,65 @@
+# Ignore vendor directory
+/vendor
+
+# Ignore node_modules directory (for front-end assets)
+/node_modules
+
+# Ignore .env files containing sensitive configuration
+.env
+.env.*
+
+# Ignore log files
+/storage/logs/*.log
+
+# Ignore database files
+/database/*.sqlite
+/database/*.sqlite3
+
+# Ignore generated application keys
+php artisan key:generate
+
+# Ignore the public storage directory
+/public/storage
+
+# Ignore mix-manifest.json for asset versioning
+/public/mix-manifest.json
+
+# Ignore compiled PHP files
+*.php
+*.php7
+*.php72
+*.php73
+*.php74
+*.php8
+
+# Ignore user-specific files
+Homestead.json
+Homestead.yaml
+Homestead.yaml.example
+*.sqlite
+*.sqlite3
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Ignore environment-specific files
+.phpstorm.meta.php
+.phpstorm.meta.php.sandbox
+.env.idea
+.idea
+*.iml
+*.ipr
+*.iws
+*.editorconfig
+
+# Ignore application-specific files
+/storage/app/*
+/storage/framework/*
+/storage/temp/*
+/storage/views/*
+bootstrap/cache/*
+
+# Ignore testing-related files
+tests/Feature/Dusk/screenshots/
+tests/Feature/Dusk/console/
+tests/
